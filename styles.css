@@ -1,7 +1,8 @@
 body {
 	background-image: url("mountain.jpg");
-	background-position: left top;
+	background-position: center;
 	background-attachment: fixed;
+	text-align: center;
 }
 h1 {
 	font-size: 5 vw;
@@ -17,7 +18,7 @@ hr
 }
 
 #time {
-	color: #6943A3;
+	color: white;
 }
 	
 #p01 {
@@ -36,12 +37,12 @@ q {
 }
 
 button {
-	background-color: #b3ffff;
+	background-color: #5FB6DB;
 	font-size: 2vw;
 }
 
 button:hover {
-	background-color: #e6ffff;
+	background-color: #74BAD8;
 }
 	
 ul.bar {
@@ -99,4 +100,19 @@ a.address:visited {
     border-top: 1px solid #8B66AB;
     margin: 1em 0;
     padding: 0; 
+}
+
+#test {
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#datediv {
+	background-color: #6943A3;
+	margin-left: 500px;
+	margin-right: 500px;
 }

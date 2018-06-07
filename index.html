@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
-<body style="text-align:center">
+<body>
 
 	<ul class="bar">
 		<li class="item"><a href="index.html" class="itemlink">Home</a></li>
@@ -23,7 +23,7 @@
 	</ul>
 
 	<br><br>
-	<h1>😏 Welcome to the Town 😏</h1>
+	<h1>😏 <span id="test">Welcome to the Town</span> 😏</h1>
 	
 	<p>We have lots of <a href="https://upload.wikimedia.org/wikipedia/commons/9/98/Shell_Island_1985.jpg" target="_blank">
 	nice</a> things in this world!</p>
@@ -45,15 +45,15 @@
 	<hr>
 
 	<br>
-	<img src = "https://www.pixelstalk.net/wp-content/uploads/2016/07/3D-Nice-Wallpapers.jpg"
+	<img src = "drop.jpg"
 		alt="beauty"
 		title="&#191; pretty good ?"
 		style="max-width:50%">
 	<br><br>
 	
 	<button onclick="updateClock();"><i>What time is it?</i></button>
-	<p id = "time">
-	</p>
+	<div id="datediv"><p id = "time">
+	</p></div>
 	
 	<script>
 		function updateClock() {	
