@@ -1,5 +1,7 @@
 body {
-	background-color: AliceBlue;
+	background-image: url("mountain.jpg");
+	background-position: left top;
+	background-attachment: fixed;
 }
 h1 {
 	font-size: 5 vw;
@@ -9,6 +11,11 @@ p {
 	color:#388CD6;
 }
 
+hr
+{
+	border-bottom: AliceBlue;
+}
+
 #time {
 	color: #6943A3;
 }
@@ -16,6 +23,7 @@ p {
 #p01 {
 	border: 5px outset #605BA1; 
 	padding: 5px;
+	background-color: #ADA0CB;
 }
 
 q {
@@ -80,4 +88,15 @@ a.address:visited {
 
 #bottom {
 	background-image:url('http://1.bp.blogspot.com/_Y1fFfKjiX2g/S_gMwLeGtjI/AAAAAAAALlE/vdX0ttHeEjg/s1600/CLOUDS2.jpg');
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.purple {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #8B66AB;
+    margin: 1em 0;
+    padding: 0; 
 }
