@@ -23,23 +23,10 @@
 	</ul>
 
 	<br><br>
-	<h1>😏 My First Heading 😏</h1>
+	<h1>😏 Welcome to the Town 😏</h1>
 	
-	<a href="#H1">Jump to heading 1</a>
-
-	<p style="color:orange">My First <a href="https://upload.wikimedia.org/wikipedia/commons/9/98/Shell_Island_1985.jpg" target="_blank">good</a> Paragraph 
-	(is garbage).</p>
-
-	<button onclick="document.getElementById('date').innerHTML = Date()">GOOOOD nice</button>
-	<p id = "date"></p>
-	<hr>
-
-	<br>
-	<img src = http://www.clker.com/cliparts/F/b/r/S/Z/V/fun-telephone-hi.png 
-		alt="Stupid phone man"
-		title="&#191; babies o'clock ?"
-		style="max-width:25%">
-	<br>
+	<p>We have lots of <a href="https://upload.wikimedia.org/wikipedia/commons/9/98/Shell_Island_1985.jpg" target="_blank">
+	nice</a> things in this world!</p>
 	
 	<form>
 	<table style="margin: 0px auto;">
@@ -54,51 +41,59 @@
 		</tr>
 	</table>
 	</form>
-
-	<ul style="background-color:powderblue;color:blue;font-family:verdana;">
-		<li><i>Harry</i></li>
-		<li><em>Gary</em></li>
-		<li><small>Mary</small></li>
-		<li><mark>Barry</mark></li>
-		<li><del>Larry</del></li>
-	</ul>
-
-	<h5 style="border:2px solid Green;">Things that are good:</h5>
-	<ol>
-		<li><b>NICE</b></li>
-		<li><strong>LICE</strong></li>
-		<li><ins>RICE</ins></li>
-		<li><sub>MICE</sub></li>
-		<li><sup>TWICE</sup></li>
-	</ol>
 	
-	<p id="p01">The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
+	<hr>
 
-	<h1 id="H1">This is heading 1</h1>
-	<p>This is some text.</p>
-	<q style="background-color:#BA55D3;color:#191970">To be or not to be...</q>
+	<br>
+	<img src = "https://www.pixelstalk.net/wp-content/uploads/2016/07/3D-Nice-Wallpapers.jpg"
+		alt="beauty"
+		title="&#191; pretty good ?"
+		style="max-width:50%">
+	<br><br>
+	
+	<button onclick="updateClock();"><i>What time is it?</i></button>
+	<p id = "time">
+	</p>
+	
+	<script>
+		function updateClock() {	
+			document.getElementById('time').innerHTML = Date();
+			setTimeout(updateClock, 1000);
+		}
+	</script>
+	
+	<br>
+	<div id="p01">
+
+	<h1 id="H1">Some interesting information</h1>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
+	<p>A good quote: <q>To be or not to be...</q></p>
+	<p id="author">-William Shakespeare</p>
 	<blockquote cite="https://www.asmr.com/">This year, and for the third consecutive year, ASM will be the Grand Sponsor of the Tim Maude Foundation Charity Golf Tournament.</blockquote>
 	<hr>
 	
-	<h2>This is heading 2</h2>
-	<p>This is some other text.</p>
+	<h2>What can we do next?</h2>
+	<p>crying that this is backwards</p>
 	<bdo dir="rtl" style="color:#BA55D3">crying that this is backwards</bdo>
-	<hr> 
+	<hr>
+	</div>
 	
-	<p style="background-image:url('http://1.bp.blogspot.com/_Y1fFfKjiX2g/S_gMwLeGtjI/AAAAAAAALlE/vdX0ttHeEjg/s1600/CLOUDS2.jpg')"><img src="https://68.media.tumblr.com/7d14ab4279bdfa439c1bc7200d07ae29/tumblr_oel9tjAgrc1tj8xueo2_r1_500.gif" alt="Smiley face" style="float:right;width:50px;height:50px" usemap="#workmap">
+	<div id="bottom">
+	<p><img src="https://68.media.tumblr.com/7d14ab4279bdfa439c1bc7200d07ae29/tumblr_oel9tjAgrc1tj8xueo2_r1_500.gif" alt="Smiley face" style="float:right;width:50px;height:50px" usemap="#workmap">
 	Look at me, boys!</p>
 	
 	<map name="workmap">
-		<area shape ="circle" coords="25,25,5" alt="garbage" href="garbage.htm">
+		<area shape ="circle" coords="25,25,5" alt="garbage" href="garbage.html">
 	</map>
 	
 	<address>
 		&copy; Written by Tim McGraw<br> 
 		Visit us at:<br>
-		<a href="https://en.wikipedia.org/wiki/Tim_McGraw">bullying.com</a><br>
+		<a class="address" href="https://en.wikipedia.org/wiki/Tim_McGraw">bullying.com</a><br>
 		Box 564, Crying House<br>
 		USA
 	</address> 
+	</div>
 
 </body>
 </html>

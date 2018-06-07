@@ -1,27 +1,32 @@
 body {
 	background-color: AliceBlue;
 }
-	
-h1 {
-	color: blue;
-}
-	
+
 p {
-	color: red;
+	color:#388CD6;
 }
-	
-ol {
-	border: 2px inset orange;
+
+#time {
+	color: #6943A3;
 }
 	
 #p01 {
-	border: 1px solid blue; 
-	padding: 20px;
+	border: 5px outset #605BA1; 
+	padding: 5px;
+}
+
+q {
+	background-color:#E9BBE8;
+	color:#191970
+}
+#author {
+	padding-left: 150px;
+	color: #864684;
 }
 
 button {
 	background-color: #b3ffff;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 button:hover {
@@ -38,7 +43,7 @@ ul.bar {
 	left: 0;
 	width: 100%;
 	height 60px;
-	background-color: #228B22;
+	background-color: #1E67A6;
 }
 
 li.item {
@@ -54,5 +59,22 @@ li a {
 }
 
 li a:hover {
-	background-color: #2db92d;
+	background-color: #4990C6;
+}
+
+address {
+	color: white;
+}
+a.address:link {
+	color: #DCDBE3;
+}
+a.address:hover {
+	color: white
+}
+a.address:visited {
+	color: #CBCBD6;
+}
+
+#bottom {
+	background-image:url('http://1.bp.blogspot.com/_Y1fFfKjiX2g/S_gMwLeGtjI/AAAAAAAALlE/vdX0ttHeEjg/s1600/CLOUDS2.jpg');
 }
