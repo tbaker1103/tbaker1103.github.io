@@ -1,6 +1,9 @@
 body {
 	background-color: AliceBlue;
 }
+h1 {
+	font-size: 5 vw;
+}
 
 p {
 	color:#388CD6;
