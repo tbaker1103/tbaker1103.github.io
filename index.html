@@ -11,11 +11,10 @@
 	<meta name="description" content="Good stuff for good babies">
 	<meta name="keywords" content="help, please">
 	<meta name="author" content="Tim Baker">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
 
 <body>
-
 	<ul class="bar">
 		<li class="item"><a href="index.html" class="itemlink">Home</a></li>
 		<li class="item"><a href="#news" class="itemlink">News</a></li>
@@ -58,7 +57,8 @@
 	</p></div>
 	
 	<script>
-		function updateClock() {	
+		function updateClock() {
+			
 			document.getElementById('time').innerHTML = Date();
 			setTimeout(updateClock, 1000);
 		}
@@ -80,6 +80,16 @@
 	<hr class="purple">
 	<h4>Thank you for visiting my site!</h4>
 	</div>
+	
+	<br><br>
+	
+	<div id="bulb">
+	<button style="background-color:FloralWhite" onclick="document.getElementById('myImage').src='pic_bulbon.gif'; document.getElementById('bulb').style.backgroundColor='white'">ON</button>
+	<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+	<button style="background-color:FloralWhite" onclick="document.getElementById('myImage').src='pic_bulboff.gif'; document.getElementById('bulb').style.backgroundColor='black';">OFF</button>
+	</div>
+	
+	<br>
 	
 	<div id="bottom">
 	<p style="font-size:14px"><img src="https://68.media.tumblr.com/7d14ab4279bdfa439c1bc7200d07ae29/tumblr_oel9tjAgrc1tj8xueo2_r1_500.gif" alt="Smiley face" style="float:right;width:50px;height:50px" usemap="#workmap">
