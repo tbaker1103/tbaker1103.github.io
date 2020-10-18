@@ -1,0 +1,127 @@
+body {
+	background-image: url("mountain.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+h1 {
+	font-size: 5 vw;
+}
+
+p {
+	color:#388CD6;
+}
+
+hr
+{
+	border-bottom: AliceBlue;
+}
+
+#time {
+	color: white;
+}
+	
+#p01 {
+	border: 5px outset #605BA1; 
+	padding: 5px;
+	background-color: #ADA0CB;
+}
+
+q {
+	background-color:#E9BBE8;
+	color:#191970
+}
+
+#author {
+	padding-left: 150px;
+	color: #864684;
+}
+
+button {
+	background-color: #5FB6DB;
+	font-size: 2vw;
+}
+
+button:hover {
+	background-color: #74BAD8;
+}
+	
+ul.bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #1E67A6;
+	overflow: hidden;
+}
+
+li.item {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #4990C6;
+}
+
+address {
+	color: white;
+}
+a.address:link {
+	color: #DCDBE3;
+}
+a.address:hover {
+	color: white
+}
+a.address:visited {
+	color: #CBCBD6;
+}
+
+#bottom {
+	background-image:url('http://1.bp.blogspot.com/_Y1fFfKjiX2g/S_gMwLeGtjI/AAAAAAAALlE/vdX0ttHeEjg/s1600/CLOUDS2.jpg');
+	background-position: bottom left;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.purple {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #8B66AB;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#test {
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#datediv {
+	background-color: #6943A3;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+#bulb {
+	background-color: black;
+	padding: 20px;
+	margin-left: 600px;
+	margin-right: 600px;
+}
